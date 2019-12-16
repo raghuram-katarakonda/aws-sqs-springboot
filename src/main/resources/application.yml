@@ -1,0 +1,17 @@
+
+server:
+  port: 8080
+  
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+      access-key: <<accessKey>>
+      secret-key: <<SecretKey>>
+    end-point:
+      uri: <<SQS URL>>
+    stack:
+      auto: false
+      
